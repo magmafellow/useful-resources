@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmet abbriviations</title>
+</head>
+<body>
+
+  <div class="section">
+    <div class="abbr">
+      div>ul>li
+    </div>
+    <div class="res">
+      
+      <div>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">div+p+bq</div>
+    <div class="res">
+
+      <div></div>
+      <p></p>
+      <blockquote></blockquote>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      div+div>p>span+em 
+    </div>
+    <div class="res">
+
+      <div></div>
+      <div>
+        <p>
+          <span></span>
+          <em></em>
+        </p>
+      </div>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      div+div>p>span+em^bq
+    </div>
+    <div class="res">
+
+      <div></div>
+      <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+      </div>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      div+div>p>span+em^^^bq
+    </div>
+    <div class="res">
+
+      <div></div>
+      <div>
+        <p><span></span><em></em></p>
+      </div>
+      <blockquote></blockquote>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+
+    </div>
+    <div class="res">
+
+      
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">
+      ul>li*5
+    </div>
+    <div class="res">
+
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      div>(header>ul>li*2>a)+footer>p
+    </div>
+    <div class="res">
+
+      <div>
+        <header>
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </header>
+        <footer>
+          <p></p>
+        </footer>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">
+      (div>dl>(dt+dd)*3)+footer>p
+    </div>
+    <div class="res">
+
+      <div>
+        <dl>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+        </dl>
+      </div>
+      <footer>
+        <p></p>
+      </footer>
+      
+    </div>
+  </div> 
+
+
+  <div class="section">
+    <div class="abbr">
+      div#header+div.page+div#footer.class1.class2.class3
+    </div>
+    <div class="res">
+
+      <div id="header"></div>
+      <div class="page"></div>
+      <div id="footer" class="class1 class2 class3"></div>
+
+    </div>
+  </div> 
+
+
+
+  <div class="section">
+    <div class="abbr">
+      td[title="Hello world!" colspan=3]
+    </div>
+    <div class="res">
+
+      <td title="Hello world!" colspan="3"></td>
+
+    </div>
+  </div> 
+
+
+  <div class="section">
+    <div class="abbr">
+      ul>li.item$*5
+    </div>
+    <div class="res">
+
+      <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">
+      ul>li.item$$$*5
+    </div>
+    <div class="res">
+
+      <ul>
+        <li class="item001"></li>
+        <li class="item002"></li>
+        <li class="item003"></li>
+        <li class="item004"></li>
+        <li class="item005"></li>
+      </ul>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      ul>li.item$@-*5
+    </div>
+    <div class="res">
+
+      <ul>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+        <li class="item2"></li>
+        <li class="item1"></li>
+      </ul>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+      </ul>
+    </div>
+    <div class="res">
+
+      
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      ul>li.item$@-3*5
+    </div>
+    <div class="res">
+
+      <ul>
+        <li class="item7"></li>
+        <li class="item6"></li>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">
+      a{click me}
+    </div>
+    <div class="res">
+
+      <a href="">Click me</a>
+
+    </div>
+  </div> 
+
+
+  <div class="section">
+    <div class="abbr">
+      a{click on me}>b{text of b element}
+    </div>
+    <div class="res">
+
+      <a href="">click on me<b>text of b element</b></a>
+
+    </div>
+  </div> 
+
+
+  <div class="section">
+    <div class="abbr">
+      a>{click me}+b{text of b element}
+    </div>
+    <div class="res">
+
+      <a href="">click me<b>text of b element</b></a>
+
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="abbr">
+      a{click me}+b{text of b element}
+    </div>
+    <div class="res">
+
+      <a href="">click me</a><b>text of b element</b>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      p>{click }+a{here}+{to continue}
+    </div>
+    <div class="res">
+
+      <p>click<a href="ya.ru">here</a>to continue</p>
+
+    </div>
+  </div> 
+
+  <div class="section">
+    <div class="abbr">
+      p{Click }+a{here}+{to continue}
+    </div>
+    <div class="res">
+
+      <p>Click </p>
+      <a href="">here</a>to continue
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="abbr">
+      a>{here}+{to continue}
+    </div>
+    <div class="res">
+
+      <a href="">
+        here
+        to continue
+      </a>
+
+    </div>
+  </div> 
+  
+</body>
+</html>

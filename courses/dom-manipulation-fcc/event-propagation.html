@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Propagation Example</title>
+  <style>
+    html {
+      background-image: linear-gradient(to right top, #065e0a, #185b17b9);
+      min-height: 100vh;
+    }
+    html, body {
+      margin: 0; padding: 0;
+      font-family: Ubuntu;
+      font-size: 16px;
+    }
+    .upper {
+      max-width: 800px;
+      min-height: 500px;
+      margin: 0 auto;
+      border: 2px solid #ddd;
+      text-align: center;
+      font-size: 3.7em;
+      padding-top: 30px;
+      background-color: #0e7d14ca;
+    }
+    .lower {
+      max-width: 400px;
+      min-height: 250px;
+      margin: 0 auto;
+      border: 2px solid #aaa;
+      font-size: 0.79em;
+      margin-top: 70px;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: #065e0a8d;
+    }
+    .btn {
+      font-size: 1.7rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div style="margin-top: 100px;">&nbsp;</div>
+  <div class="upper">
+    upper
+    <div class="lower">
+      lower
+      <button class="btn">Click here!</button>
+    </div>
+  </div>
+
+  <script src="event-propagation.js"></script>
+</body>
+</html>

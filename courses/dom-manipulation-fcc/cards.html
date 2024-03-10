@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Events</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu';
+    }
+    body {
+      min-height: 100vh;
+      background-image: linear-gradient(to bottom, #303847, #5b6f8c);
+      color: #eee;
+    }
+    #main-heading {
+      text-align: center;
+      padding: 30px 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .card {
+      padding: 30px 42px;
+      border: 3px solid #ddd;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom, #00000035, #00000008);
+    }
+    .card p {
+      margin: 100px 0;
+      text-align: center;
+      font-size: 2em;
+    }
+    .span-wrapper {
+      text-align: center;
+    }
+    .span-wrapper span {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 2px solid #eee;
+      font-size: 1.3em;
+    }
+    .span-wrapper span:hover {
+      background-color: rgb(105, 160, 195);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="main-heading">Event Listeners</h1>
+  <div class="container">
+    <div class="card card-1">
+      <p>Example 1</p>
+      <div class="span-wrapper">
+        <span class="span-one" onclick="alert('I love JavaScript');">Enter</span>
+      </div>
+    </div>
+    <div class="card card-2">
+      <p>Example 2</p>
+      <div class="span-wrapper">
+        <span class="span-two">Enter</span>
+      </div>
+    </div>
+    <div class="card card-3">
+      <p>Example 3</p>
+      <div class="span-wrapper">
+        <span class="span-three">Enter</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="event-listeners.js"></script>
+</body>
+</html>

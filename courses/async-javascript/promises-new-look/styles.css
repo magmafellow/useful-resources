@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(65, 156, 189);
+  color: blue;
+  font-size: 3em;
+  font-family: Ubuntu;
+  text-shadow: 2px 4px 4px #00000078;
+}
+
+div {
+  text-align: center;
+}

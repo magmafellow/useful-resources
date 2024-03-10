@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reveal - Hide Game</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu';
+    }
+    body {
+      min-height: 100vh;
+      background-image: linear-gradient(to bottom, #303847, #5b6f8c);
+      color: #eee;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      min-height: 300px; 
+      display: flex;
+      padding: 35px 50px;
+      border: 5px dashed rgb(106, 106, 215);
+      border-radius: 20px;
+      gap: 15px;
+    }
+    button {
+      background-color: transparent;
+      border: 2px solid #eee;
+      border-radius: 16px;
+      color: #ddd;
+      flex-basis: 150px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding: 50px 10px;
+      font-size: 1.3em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-image: linear-gradient(to top, #bf7ab66b, #944f9622);
+    }
+    button:active {
+      outline: #bf7ab66b 3px solid;
+      background-image: linear-gradient(to top, #bf7ab695, #944f9640);
+    }
+    .content.reveal-content {
+      display: flex;
+      align-items: center;
+    }
+    .content {
+      padding: 16px;
+      font-size: 1.1em;
+      display: none;
+      border: 2px solid #ddd;
+      border-radius: 20px;
+      background-image: linear-gradient(to top, #7abfa146, #4f967715);
+      outline: #47f06957 4px solid;
+      color: #47f069;
+    }
+    .revealed {
+      background-image: linear-gradient(to top, #a2a2a28e, #7f7f7f3e);
+    }
+    .revealed:hover {
+      background-image: linear-gradient(to top, #7474748e, #5959593e);;
+    }
+  </style>
+</head>
+<body>
+  <div class="" style="margin-bottom: 50px;">&nbsp;</div>
+  <div class="container">
+    <button class="reveal-btn">Reveal / Hide Text</button>
+    <div class="content">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nam illo omnis veritatis nostrum sit ut sequi at dicta, ab, aliquid aperiam consectetur animi repellat! Molestias, nam. Quam facilis quo incidunt, error harum recusandae quasi animi non nostrum. Dolores alias dolore totam expedita ducimus magni quidem eligendi rem quisquam cupiditate?
+    </div>
+  </div>
+
+  <script src="reveal-hide.js"></script>
+</body>
+</html>

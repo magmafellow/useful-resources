@@ -1,0 +1,22 @@
+html {
+  background-color: green;
+  color: darkorange;
+}
+html, body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  filter: drop-shadow(2px 2px 8px orange);
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2.3em;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}

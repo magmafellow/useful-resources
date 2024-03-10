@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM manipulation kicking in</title>
+  <style>
+    html {
+      background-image: linear-gradient(to bottom, rgba(23, 21, 95, 0.762), rgba(22, 19, 84, 0.521));
+      min-height: 100vh;
+      font-family: 'Ubuntu';
+    }
+    .container {
+      border: 3px solid #fff;
+      border-radius: 18px;
+      max-width: 700px;
+      margin: 30px auto;
+    }
+    #main-heading {
+      text-align: center;
+      color: #fff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .list-items {
+      background-image: linear-gradient(to bottom, #e6e6e6ba, #c9c9c99f);
+      text-align: center;
+      padding: 15px 10px;
+      font-weight: 700;
+      font-size: 1.3em;
+      margin-bottom: 3px;
+    }
+    .list-items:last-child {
+      margin-bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1 id="main-heading">Favorite Movie Franchise</h1>
+    <!-- I am a node too! -->
+    <ul>
+      <li class="list-items">
+        <span>Neo</span>
+        The Matrix</li>
+      <li class="list-items">Star wars</li>
+      <li class="list-items">Harry Potter</li>
+      <li class="list-items">Lord of the Rings</li>
+      <li class="list-items">Marvel</li>
+    </ul>
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Default Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+}
+
+/* Stop Watch Styling Section */
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #0000005b, #00000038), url(water-bg.avif) left top / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  height: 250px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  margin: 0 10px;
+  border: none;
+
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+  width: 59px;
+}
+
+.play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#resetBtn {
+  background-color: red;
+}

@@ -1,0 +1,57 @@
+html {
+  background-color: #ffffff;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 1em 0;
+  font-size: 2em;
+}
+
+h3 {
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.15;
+  letter-spacing: 0.04375em;
+  margin: 1em 0;
+}
+
+/* .pre-p {
+  display: inline-block;
+  width: 33px;
+  cursor: pointer;
+  line-height: 1;
+} */
+
+a {
+  color: rgb(41, 73, 255);
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(41, 73, 255);
+}
+/* a:visited {
+  color: rebeccapurple;
+} */ /* Temporary disabled */
+a:hover {
+  color: rgb(120, 120, 255);
+  /* text-decoration: underline; */
+}
+a:active {
+  color: rgba(255, 0, 0, 0.837);
+}

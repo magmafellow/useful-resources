@@ -1,0 +1,1 @@
+console.log(`printed with ES6 feature`);

@@ -1,0 +1,77 @@
+/* Default Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Ubuntu;
+}
+
+body {
+  height: 100vh;
+  background: #333;
+}
+
+/* Stopwatch-related Styles */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  
+  width: 500px;
+  height: 300px;
+  /* background-color: rosybrown; */
+}
+
+.time-container span {
+  font-size: 3rem;
+  color: #20c20e;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.buttons button {
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: 0.15s;
+  border: none;
+  border-radius: 2px;
+  font-family: Ubuntu;
+}
+.buttons button:first-child:hover {
+  background-color: rgb(39, 39, 154);
+  color: #fff;
+}
+.buttons button:first-child:active {
+  box-shadow: 0 2px 10px goldenrod;
+}
+.buttons button:last-child:hover {
+  background-color: orange;
+  color: #fff;
+}
+.buttons button:last-child:active {
+  box-shadow: 0 2px 10px rgb(32, 137, 218);
+}
+
+.time-container {
+  background-color: #222;
+  padding: 20px 23px;
+  border-radius: 4px;
+  /* filter: drop-shadow(8px -4px 10px lightcyan); */
+  box-shadow: 7px -4px 17px 0px #20c20e;
+
+}

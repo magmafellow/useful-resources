@@ -1,0 +1,5 @@
+// Event Propagation
+
+// 1. Capturing
+// 2. Target
+// 3. Event Bubbling
